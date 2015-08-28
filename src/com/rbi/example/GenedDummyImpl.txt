@@ -1,0 +1,8 @@
+package com.rbi.example;
+
+public class GenedDummyImpl implements KnownDummyInterface{
+	@Override
+	public String getName() {
+		return "Dummy";
+	}
+}
